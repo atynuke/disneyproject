@@ -1,32 +1,32 @@
 import React from 'react';
-import style from './Selection.module.css';
+import style from './SelectCart1.module.css';
+import CartoonType from './CartoonType';
 
 
-export default function Select(props) {
-    const { Image, Title } = props
+export default function SelectCart1() {
 
-    const Data = [
+    const Cart1 = [
         {
-            Image: "./src/assets/pixarbest.jpeg",
+            Image: "/src/assets/pixarbest.jpeg",
             Title: "Pixar Best",
             Catagory: "The ultimate best album of Pixar music March t2o th CD released digital distribution"
 
         },
 
         {
-            Image: "./src/assets/pixarbest.jpeg",
+            Image: "/src/assets/pixarbest.jpeg",
             Title: "Pixar Best",
             Catagory: "The ultimate best album of Pixar music March t2o th CD released digital distribution"
         },
 
         {
-            Image: "./src/assets/pixarbest.jpeg",
+            Image: "/src/assets/pixarbest.jpeg",
             Title: "Pixar Best",
             Catagory: "The ultimate best album of Pixar music March t2o th CD released digital distribution"
         },
 
         {
-            Image: "./src/assets/pixarbest.jpeg",
+            Image: "/src/assets/pixarbest.jpeg",
             Title: "Pixar Best",
             Catagory: "The ultimate best album of Pixar music March t2o th CD released digital distribution"
         },
@@ -34,28 +34,27 @@ export default function Select(props) {
     ];
 
 
-    return ( 
-        <>
+    // return ( 
+    //     <>
 
-            <div className={style.cartoonType-wrap}>
-                <img src={cartoonImage} alt="cartoonImage" />
-                <h2>{cartoonTitle}</h2>
-            </div>
-        </>
-    );
+    //         <div className={style.cartoonTypeWrap}>
+    //             <img src={cartoonImage} alt="cartoonImage" />
+    //             <h2>{cartoonTitle}</h2>
+    //         </div>
+    //     </>
+    // );
 
 
     return (
-        
+
         <>
-            <div style={{ display: "flex", gap: "20px" }} />
-            <div className={ style.SelectData}>
-                {Data.map((Element) => {
+            <div className={style.SelectCart} style={{ display: "flex", gap: "20px" }} >
+                {Cart1.map((Element) => {
                     return (
-                        <div
-                            Image={Element.Image}
-                            title={Element.title}
-                            Catagory={Element.Catagory}
+                        <SelectCart1
+                            image={Element.Image}
+                            title={Element.Title}
+                            catagory={Element.Catagory}
                         />
                     );
                 })}

@@ -1,15 +1,17 @@
-import SelectCartoon from './Selection';
-import style from './Selection.module.css';
+import SelectCar from './SelectCart1';
 
-const CartoonType = () => {
+
+const CartoonType = (props) => {
+
+    const {title, category, image} = props
 
     return ( 
         <>
 
             <div className={style.TypeWrap}>
-                <img src={Image} alt="Image" />
-                <h2>{Title}</h2>
-                <p>{Category}</p>
+                <img src={image} alt="Image" />
+                <h2>{title}</h2>
+                <p>{category}</p>
             </div>
         </>
     )

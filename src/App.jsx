@@ -1,7 +1,7 @@
 import DisneyHeader from './component/Disneyheader/disneyHeader.jsx';
 import DisneyHero from './component/Hero/Hero.jsx';
-import SelectCartoon from './component/Series/Selection.jsx';
-import CartoonType from './component/Series/CartoonType.jsx';
+import SelectCart1 from './component/Series/SelectCart1.jsx';
+import CartoonTy from './component/Series/CartoonType.jsx';
 import './App.css'
 
 
@@ -17,13 +17,10 @@ function App() {
         <DisneyHero/>
       </div>
 
-      <div>  
-        <SelectCartoon/>
-      </div> 
+     <div>
+      <SelectCart1/>
+     </div>
 
-       <div>  
-        <CartoonType/>
-      </div> 
     </>
   )
 }
