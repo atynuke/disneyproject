@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Disney {
+    padding: 15px;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li {
+   list-style: none;
+   padding: 20px;
+   font-size: 16px;
+   font-weight: 600;
+   /* color: white; */
+}
+/* 
+.inputDiv {
+    display: grid;
+    flex-direction: row;
+   
+} */
+
+.searchicon {
+background-color: rgb(245, 245, 245);
+box-sizing: border-box;
+border: black 20px;
+height: 20px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* h2 {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(7, 7, 82);
+    height: 70px;
+    width: 100%;
+} */
