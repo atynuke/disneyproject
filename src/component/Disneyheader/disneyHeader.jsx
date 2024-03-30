@@ -9,7 +9,6 @@ export default function DisneyHeader() {
     return (
         <>
             <nav>
-                <img src="" alt="" />
 
                 <div className={style.Disney}>
                     <img src={image} alt="firstImage" height={60} width={130} />
@@ -32,6 +31,7 @@ export default function DisneyHeader() {
                         <br />
                     <div className={style.searchicon}>
                         <img src={image1} alt="secondImage" height={15} width={20} />
+                        <button></button>
                     </div>
                 
             </nav>

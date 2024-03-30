@@ -1,8 +1,11 @@
 import DisneyHeader from './component/Disneyheader/disneyHeader.jsx';
 import DisneyHero from './component/Hero/Hero.jsx';
-import SelectCart1 from './component/Series/SelectCart1.jsx';
-import CartoonTy from './component/Series/CartoonType.jsx';
+// import CartBuild from "./component/Series/CartBuild.jsx"
+
+
 import './App.css'
+import Cart1 from './component/Series/CartBuild.jsx';
+import CartBond from './component/Series/cartone.jsx';
 
 
 function App() {
@@ -17,10 +20,13 @@ function App() {
         <DisneyHero/>
       </div>
 
-     <div>
-      <SelectCart1/>
-     </div>
+      <div>
+          <CartBond/>
+      </div>
 
+      <div>
+        <Cart1/>
+      </div>
     </>
   )
 }

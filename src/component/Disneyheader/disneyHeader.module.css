@@ -26,33 +26,30 @@ li {
    padding: 20px;
    font-size: 16px;
    font-weight: 600;
-   /* color: white; */
 }
-/* 
-.inputDiv {
-    display: grid;
-    flex-direction: row;
-   
-} */
+
 
 .searchicon {
-background-color: rgb(245, 245, 245);
-box-sizing: border-box;
-border: black 20px;
-height: 20px;
-width: 40px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-/* h2 {
-    font-size: 15px;
-    color: white;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    border: black 20px;
+    height: 20px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: rgb(7, 7, 82);
-    height: 70px;
-    width: 100%;
-} */
+    position: relative;
+    left: 10px;
+    
+    
+}
+
+button {
+    box-sizing: border-box;
+    border: black 20px;
+    height: 20px;
+    width: 50px;
+    /* position: relative;
+    right: 20px; */
+    
+} 

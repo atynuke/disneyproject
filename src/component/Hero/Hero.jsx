@@ -13,7 +13,7 @@ export default function DisneyHero() {
             </div>
             <div className={style.leftContent}>
                <h1> "Frozen" 10th anniversary</h1>
-                <p>Check out the latest nformation, character information, related <br /> videos,
+                <p>Check out the latest information, character information, related <br /> videos,
                 and more about the Disney animated movies that caused <br />
                 the frozen phenomenon aruond the world!</p>
             </div>
