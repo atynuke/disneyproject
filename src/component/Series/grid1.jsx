@@ -1,4 +1,4 @@
-import Grid1Card  from './CartBuild.jsx'
+import Grid1Card  from './grid1Card.jsx'
 import style from './cartone.module.css'
 
 
