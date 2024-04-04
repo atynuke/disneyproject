@@ -1,11 +1,11 @@
-import Cart1 from './CartBuild.jsx'
+import Grid1Card  from './CartBuild.jsx'
 import style from './cartone.module.css'
 
 
 
-const CartBond = () => {
+const GridOne = () => {
 
-    const Carts = [
+    const gridOne = [
         {
             Image: "/src/assets/pixarbest.jpeg",
             Title: "Pixar Best",
@@ -41,9 +41,10 @@ const CartBond = () => {
     return (
         <>
             <div className={style.Container} style={{ display: 'flex', gap: "20px" }}>
-                {Carts.map((Element) => {
+                {gridOne.map((Element) => {
                     return(
-                        <Cart1
+                        <Grid1Card 
+
                             image={Element.Image}
                             title={Element.Title}
                             catagory={Element.Catagory}
@@ -55,4 +56,6 @@ const CartBond = () => {
     )
 }
 
-export default CartBond
+export default GridOne
+
+

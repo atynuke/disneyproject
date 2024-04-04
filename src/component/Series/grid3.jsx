@@ -1,9 +1,9 @@
 import React from "react";
-import Grid2Card from "./grid2Card";
+import Grid3Card from "./grid3Card";
 import style from "./cartone.module.css";
 
-const GridTwo = () => {
-  const gridtwo = [
+const GridThree = () => {
+  const gridthree = [
     {
       image:
         "https://lumiere-a.akamaihd.net/v1/images/magazine_240404_special_1200_677_21337e68.jpeg?region=0,1,1200,675&width=320",
@@ -30,8 +30,8 @@ const GridTwo = () => {
   return (
     <>
       <div className={style.Container} style={{ display: "flex", gap: "20px" }}>
-        {gridtwo.map((value) => {
-          return <Grid2Card 
+        {gridthree.map((value) => {
+          return <Grid3Card 
           image={value.image} 
           title={value.title} />;
         })}
@@ -40,4 +40,4 @@ const GridTwo = () => {
   );
 };
 
-export default GridTwo;
+export default GridThree;

@@ -1,6 +1,6 @@
 
 
-const Cart1 = (props) => {
+const Grid1Card  = (props) => {
 
     const {image, title, category } = props
 
@@ -17,4 +17,4 @@ const Cart1 = (props) => {
 
 }
 
-export default Cart1
+export default Grid1Card 
