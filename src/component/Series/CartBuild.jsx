@@ -1,15 +1,15 @@
 
 
-const Cart1 = (Props) => {
+const Cart1 = (props) => {
 
-    // const {Image, Title, Category } = Props
+    const {image, title, category } = props
 
     return (
         <>
-            <div className={style.ContainDiv} >
-             <img src={Props.image} alt="" />
-             <h2>{Props.title}</h2>  
-             <h3>{Props.category}</h3>
+            <div>
+             <img src={image} alt="" />
+             <h2>{title}</h2>  
+             <h3>{category}</h3>
             </div>
 
         </>
